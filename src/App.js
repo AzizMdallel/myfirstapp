@@ -1,7 +1,3 @@
-import Navbar from './components/Navbarr';
-import './App.css';
-import taswira from './Audi.webp'
-
 import React, { Component } from 'react'
 import ProfileImg from './Profile'
 
@@ -34,6 +30,7 @@ export default class App extends Component {
   componentWillUnmount() {
     clearInterval(this.intervalId);
   }
+
   render() {
     return (
       <div>
